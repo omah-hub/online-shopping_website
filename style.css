@@ -108,45 +108,28 @@ a:hover {
     padding-top: 30px;
     font-size: larger;
 }
-.sign-form {
-    margin-bottom: 5px;
+.form {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
-    margin-top: 5px;
-    padding: 10px;
+    height: 10vh;
+    margin-top: 40px;
+    padding: 40px;
     border-radius: 5px;
 }
-.sign-form label {
-   display: block;
-   font-weight: bold; 
+label {
+    display: block;
+    font-weight: bold;
+    height: 
+    width: 
 }
-.sign-form input {
-    width: 30%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: large;
+input {
+    width: 400px;
+    height: 20px;
+    padding:
 }
-.sign-form button {
-    width: 8%;
-    padding: 10px;
-    font-size: large;
-    background-color: pink;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-right: 40px;
-}
-.sign-form button:hover {
-    background-color: aquamarine;
-}
-/**#Email {
-    height: 10px;
-    width: 30px;
-} **/
+
 #home {
     background-color: aquamarine;
     background-size: cover;
@@ -165,10 +148,12 @@ button{
     border: none;
     background-color: #1d1d1d;
     color: aliceblue;
-    padding: 13px 30px; 
+    padding: 10px 30px; 
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.3s ease;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 button:hover {
     background-color: #3a3833;

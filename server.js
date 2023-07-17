@@ -37,10 +37,11 @@ app.get('/', (req, res) => {
     //perform database query to retrieve data
     connection.query('SELECT * FROM sign_up', (error, results) => {
         if (error) {
-            console.error('Error executing query:', error);
+            console.error('Error executing SELECT * FROM sign_up.clientsSELECT * FROM sign_up.clientsSELECT * FROM sign_up.clientsquery:', error);
             return;
         }
         //Render a HTML template with retrieved data
         res.render('index', { data: results });
         });
     });
+    
